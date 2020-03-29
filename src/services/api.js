@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://be-the-heroback-end.herokuapp.com'
+  baseURL: process.env.REACT_APP_API_URL
 })
 
 export default api;
