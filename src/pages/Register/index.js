@@ -62,7 +62,7 @@ export default function Register(){
             onChange={e => setEmail(e.target.value)}
           />
           <input
-            placeholder="Whatsapp"
+            placeholder="Whatsapp [DDD + Seu Número]"
             value={whatsapp}
             onChange={e => setWhatsapp(e.target.value)}
           />
